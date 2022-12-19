@@ -33,6 +33,8 @@ app.get('/', function(req, res) {
     res.send('Api funcionando!');
 });
 
+app.use("/catTipoCliente", require("./api/catTipoCliente/catTipoCliente"));
+
 //inicio de servicio
 app.listen(process.env.PORT || app.get("puerto"), () => {
     console.log("Inicio de servidor:", process.env.PORT || app.get("puerto"));
