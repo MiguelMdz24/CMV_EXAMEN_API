@@ -3,3 +3,113 @@
 [2022-12-19T21:06:25.117Z] info Se ha logrado la conexión con la base de datos 
 [2022-12-19T21:06:57.550Z] info Se ha logrado la conexión con la base de datos 
 [2022-12-19T21:07:01.195Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:11:44.458Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:11:51.912Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:12:01.806Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:12:13.036Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:21:52.931Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:22:31.859Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:22:54.866Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:23:36.468Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:24:09.592Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:27:07.967Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:27:45.960Z] error uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\src\api\cliente\cliente.js:6:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\src\index.js:37:22) 
+[2022-12-19T22:28:06.667Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:36:17.247Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:36:27.932Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:46:27.166Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:46:45.428Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:46:55.503Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:47:09.079Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:47:40.590Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:47:52.188Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:50:28.638Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:50:35.659Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:51:59.768Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T22:52:39.734Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:02:15.777Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:02:47.033Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:03:15.923Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:04:28.924Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:04:39.730Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:05:13.369Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:06:06.590Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:07:06.650Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:07:54.544Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:08:16.851Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:08:28.316Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:08:40.481Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:12:12.501Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:14:09.435Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:15:10.992Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:16:17.887Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:18:01.487Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:19:31.398Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:21:08.627Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:21:38.151Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:25:17.357Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:26:41.192Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:27:44.789Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:28:13.476Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:28:35.159Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:28:57.372Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:29:00.401Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:29:17.552Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:29:27.312Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:29:55.747Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:30:09.311Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:30:41.948Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:30:51.455Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:31:02.018Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:31:08.614Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-19T23:31:18.115Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:06:59.306Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:07:58.244Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:08:19.879Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:08:46.482Z] error uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at editarCliente (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\src\api\cliente\cliente.controller.js:35:13)
+    at Layer.handle [as handle_request] (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\node_modules\express\lib\router\index.js:47:12) 
+[2022-12-20T00:09:05.360Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:09:22.337Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:13:14.424Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:13:22.604Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:13:34.592Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:17:53.499Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:17:59.877Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:18:07.079Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:21:06.347Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:21:11.262Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:37:48.213Z] error uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\src\api\cliente\cliente.js:6:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\angel\Documents\GitHub\CMV_EXAMEN_API\src\index.js:37:22) 
+[2022-12-20T00:38:00.216Z] info Se ha logrado la conexión con la base de datos 
+[2022-12-20T00:38:06.381Z] info Se ha logrado la conexión con la base de datos 
