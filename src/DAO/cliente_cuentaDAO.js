@@ -1,6 +1,10 @@
+/*Clase para las peticiones de la Base De Datos de las cuentas de un cliente */
+
 const db = require("../config/database");
 
 class Cliente_cuentaDAO{
+    //Metodo para obtener las cuentas de un cliente
+    //Recibe un cliente
     async obtenerCliente_cuenta(cliente){
         let respuesta = {};
         try {

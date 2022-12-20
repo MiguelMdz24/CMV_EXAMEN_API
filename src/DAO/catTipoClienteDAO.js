@@ -1,6 +1,8 @@
+/*Clase para las peticiones de la Base De Datos de los tipos de clientes */
 const db = require("../config/database");
 
 class catTipoClienteDAO{
+    /* Metodo para obtener los tipos de clientes */
     async obtenerCatTipoCliente(){
         let respuesta = {};
         try {

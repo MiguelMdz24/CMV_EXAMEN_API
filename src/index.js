@@ -17,6 +17,7 @@ app.use(bodyParser.json({ limit: "20mb" }));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+//Configuracion para ver todo el trafico de la API
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
@@ -32,8 +33,8 @@ app.use((req, res, next) => {
 app.get('/', function(req, res) {
     res.send('Api funcionando!');
 });
-
-app.use("/catTipoCliente", require("./api/catTipoCliente/catTipoCliente"));
+//paths administidos en la API
+app.use("/catTipoCliente", require("./api/catTipoCliente/catTipoCliente")); 
 app.use("/clientes", require('./api/cliente/cliente'));
 app.use("/cliente_cuenta", require('./api/cliente_cuenta/cliente_cuenta'));
 

@@ -1,3 +1,5 @@
+/* Administrador de las peticiones (post/get/etc) */
+
 const { Router } = require("express");
 const router = Router();
 const controller = require("./cliente.controller");

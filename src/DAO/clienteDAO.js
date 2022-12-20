@@ -1,6 +1,9 @@
+/*Clase para las peticiones de la Base De Datos de los clientes*/
+
 const db = require("../config/database");
 
 class ClienteDAO{
+    //Metodo para obtener los clientes
     async obtenerCliente(){
         let respuesta = {};
         try {
@@ -15,6 +18,7 @@ class ClienteDAO{
             throw error;
         }
     }
+    //Metodo para eliminar un cliente
     async eliminarCliente(cliente){
         let respuesta = {};
         try {
@@ -31,6 +35,7 @@ class ClienteDAO{
             throw error;
         }
     }
+    //Metodo para editar un cliente
     async editarCliente(cliente){
         let respuesta = {};
         try {

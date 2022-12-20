@@ -1,3 +1,4 @@
+/* Gestion del log de la API */
 var appRoot = require('app-root-path');
 var winston  = require('winston');
 

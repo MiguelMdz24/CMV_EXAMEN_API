@@ -1,3 +1,4 @@
+/* Configuracion para la conexion de la BD extrayendo los datos de un arhivo .env */
 const dotenv = require('dotenv');
 const path = require('path');
 

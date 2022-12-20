@@ -19,6 +19,7 @@ const config = {
     }
 };
 
+/* Validacion del estado de la conexion con la Base de Datos */
 const mysqlPool = mysql.createPool(config);
 mysqlPool.query = promisify(mysqlPool.query);
 
