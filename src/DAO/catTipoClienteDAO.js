@@ -7,8 +7,8 @@ class catTipoClienteDAO{
             let sql = `CALL SP_OBTENER_TIPO_CLIENTES()`;
             let resultado = await db.query(sql);
             respuesta = JSON.parse(JSON.stringify(resultado[0]));
-            if(respuesta.estatus == 200){
-                respuesta.catTipoCliente = JSON.parse(JSON.stringify(respuesta[1]));
+            if(respuesta.length === 0){
+                throw {message: 'Error en la consulta o sin registros'}
             }
             return respuesta;
         } catch (error) {

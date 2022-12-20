@@ -35,6 +35,7 @@ app.get('/', function(req, res) {
 
 app.use("/catTipoCliente", require("./api/catTipoCliente/catTipoCliente"));
 app.use("/clientes", require('./api/cliente/cliente'));
+app.use("/cliente_cuenta", require('./api/cliente_cuenta/cliente_cuenta'));
 
 //inicio de servicio
 app.listen(process.env.PORT || app.get("puerto"), () => {
