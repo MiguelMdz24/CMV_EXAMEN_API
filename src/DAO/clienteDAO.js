@@ -34,8 +34,8 @@ class ClienteDAO{
     async editarCliente(cliente){
         let respuesta = {};
         try {
-            let sql = `CALL SP_EDITAR_CLIENTE(?,?,?,?,?,?,?)`
-            let resultado = await db.query(sql,[cliente.id_cliente,cliente.nombre,cliente.apellido_paterno,cliente.apellido_materno,cliente.rfc,cliente.curp,cliente.fecha_alta])
+            let sql = `CALL SP_EDITAR_CLIENTE(?,?,?,?,?,?)`
+            let resultado = await db.query(sql,[cliente.id_cliente,cliente.nombre,cliente.apellido_paterno,cliente.apellido_materno,cliente.rfc,cliente.curp])
             respuesta = JSON.parse(JSON.stringify(resultado));
             if(respuesta.affectedRows == 1){
                 return {status: 200};
